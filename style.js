@@ -32,9 +32,9 @@ function Meal() {
      <div class="card" style="width: 18rem;">
     <img src="${data.meals[a].strMealThumb}" class="card-img-top" alt="..."> </br>
     <div class="card-body">
-      <h4 class="card-title"><b>${data.meals[a].strMeal}</h4></b>
+      <h3 class="card-title"><b>${data.meals[a].strMeal}</h3></b>
       <p class="card-text">
-      <h3><i>Cooking Instructions:<i></h3>
+      <h4><i>Cooking Instructions:<i></h4>
       ${data.meals[a].strInstructions}
       </p>
       <a href="https://www.themealdb.com/" class="btn btn-primary">Visit Site</a>
