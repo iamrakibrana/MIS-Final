@@ -1,0 +1,65 @@
+body{
+    background-image: url('/bg.jpg');
+   height: 650px;
+
+}
+
+.title{
+    color: gray;
+    text-shadow: 1px 1px gray;
+    font-size: 80px;
+}
+.container{
+    
+}
+.child1{
+   
+   display: flex;
+   justify-content: center;
+}
+input{
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    
+}
+
+input:focus{
+    color: gray;
+    border: 2px solid gray;
+}
+Button {
+    background-color: gray;
+    
+    border: 1px solid gray;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 16px 31px;
+    text-decoration: none;
+    
+}
+
+Button:hover {
+    background-color: gray;
+}
+Button:active {
+    position: relative;
+    top: 1px;
+}
+.card{
+    margin: 40px;
+    padding: 20px;
+    height: auto !important;
+    width: 400px !important;
+    overflow: hidden;
+
+}
+#container{
+    max-height: 400px;
+    justify-self: center;
+    padding: 40px;
+}
